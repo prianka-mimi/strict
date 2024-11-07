@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html,
+body,
+span,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+i,
+header,
+nav,
+menu,
+div,
+section,
+form,
+label,
+footer {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+/* navigation part start */
+.nav_logo a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #15a4fa;
+}
+
+/* navigation part end */
+
+
+
+
+
+/* banner part start */
+#banner {
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.banner_content {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 230px;
+}
+
+.banner_content h1 {
+    font-weight: 700;
+    font-size: 120px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #15a4fa;
+    margin-bottom: 40px;
+}
+
+.banner_content p {
+    color: white;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.banner_content a {
+    color: white;
+    border: 2px solid #15a4fa;
+    padding: 20px 60px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.down_arrow a {
+    color: white;
+    font-size: 30px;
+    margin-left: 48%;
+}
+
+/* responsive part start */
+@media (max-width: 425px) { 
+    
+    .banner_content h1 {
+        font-size: 100px;
+    }
+
+ }
+
+ @media (max-width: 375px) { 
+    
+    .banner_content h1 {
+        font-size: 80px;
+    }
+
+ }
+/* responsive part end */
+
+/* banner part end */
+
+
+
+
+
+/* Simple & pure design part start */
+#Simple_pure_design {
+    background-color: #f6f9f9;
+    padding-bottom: 100px;
+}
+
+.Simple_pure_design_content {
+    margin-top: 85px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.Simple_pure_design_content h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.Simple_pure_design_content p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #a0a0a0;
+}
+
+/* Simple & pure design part end */
+
+
+
+
+
+/* option part start */
+#option_part{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.option_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.option_title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 62px 25px 0px;
+}
+
+.option_title h4 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.option_title p {
+    font-size: 15px;
+    line-height: 23px;
+    color: #999999;
+}
+
+/* option part end */
+
+
+
+
+
+/* gallery part start */
+.gallery_part_heading {
+    font-family: 'Lato', sans-serif;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.gallery_part_heading h3 {
+    font-size: 41px;
+    margin-bottom: 30px;
+}
+
+.gallery_part_heading p {
+    font-size: 15px;
+    color: #999999;
+}
+
+.gallary_part {
+    position: relative;
+    transition: all linear .3s;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.gallary_part_overlay {
+    background-color: rgba(62, 164, 204, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.gallary_part:hover .gallary_part_overlay {
+    transform: scale(1);
+    transition: all linear .3s;
+}
+
+.gallary_part_overlay li {
+    float: left;
+}
+
+.gallary_part_overlay li a {
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+/* gallery part end */
+
+
+
+
+
+/* footer part start */
+#footer_banner {
+    background: url(../img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.footer_content {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.footer_content h4 {
+    color: white;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.footer_content p {
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 60px;
+}
+
+form input {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 60px;
+    color: #999999;
+    background-color: transparent;
+    border: 1px solid #999999;
+    padding-left: 15px;
+}
+
+form .message {
+    padding-bottom: 9rem;
+    padding-top: 2rem;
+}
+
+
+form label {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+}
+
+form input::placeholder {
+    color: #999999;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+#exampleCheck1 {
+    background-color: #999999;
+}
+
+footer button {
+    color: white;
+    border: 1px solid #15a4fa;
+    background-color: transparent;
+    padding: 12px 50px;
+}
+
+/* footer part end */
+
+
+
+
+
+/* last part copy right claim part start */
+#last_part {
+    padding: 20px;
+}
+
+.content p {
+    color: #999999;
+}
+
+.content ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.content ul li {
+    background-color: #15a4fa;
+    padding: 10px 15px;
+}
+
+.content ul li a{
+    color: white;
+    background-color: #15a4fa;
+    display: block;
+}
+
+/* responsive part start */
+@media (max-width: 425px) { 
+    
+    .responsive-footer{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1rem;
+        align-items: center!important;
+    }
+
+ }
+
+ @media (max-width: 375px) { 
+    
+    .responsive-footer{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1rem;
+        align-items: center!important;
+    }
+
+ }
+/* responsive part end */
+
+/* last part copy right claim part end */
